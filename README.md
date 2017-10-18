@@ -1,6 +1,15 @@
 測試使用 Word2Vector
 --------------------
 
+# 注意
+- 因為裡面 word2vector 套件據作者宣稱 windows 不能執行，所以這邊的 code 也不能在 windows 上 run
+- 因為 word2vector 套件的作者將編譯好的 word2vec 執行檔包在套件裡，所以我們必須自行編譯才能順利執行
+  * cd node\_modules/word2vector/src
+  * make clean
+  * make
+  * ./word2vec 若有彈出word2vector 的參數說明，表示可以執行
+
+
 ### 事前準備
 
 1. 安裝 nodejs
